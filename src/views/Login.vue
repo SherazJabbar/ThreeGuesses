@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-8">
-    <div class="mt-16 text-center">
-      <div class="flex flex-col items-center mb-14">
+    <div class="mt-4 md:mt-16 text-center">
+      <div class="flex flex-col items-center mb-5 md:mb-14">
         <img src="../assets/handvictor-8.png" class="w-max" />
         <img src="../assets/Title.png" class="w-max mt-4" />
       </div>
@@ -46,7 +46,7 @@
           </router-link>
         </div>
       </div>
-      <div class="my-10">
+      <div class="my-4 md:my-10">
         <span
           class="sub-heading-3 text-color tracking-wide py-5 cursor-pointer hover:font-bold active:font-normal"
           >Forgot password?
@@ -72,7 +72,7 @@
         </span>
       </div>
 
-      <div class="my-10">
+      <div class="my-4 md:my-10">
         <span
           class="sub-heading-2 text-color tracking-wide py-5 cursor-pointer hover:font-bold active:font-normal"
         >
@@ -80,12 +80,14 @@
         </span>
       </div>
 
-      <div class="my-10">
+      <div class="my-4 md:my-10">
         <span
           class="sub-heading-2 text-color tracking-wide py-5 cursor-pointer hover:font-bold active:font-normal"
         >
           Don't have an account?
-          <span class="color-primary cursor-pointer">SIGN UP</span>
+          <router-link  :to="{ name: 'CreateAccount' }">
+            <span class="color-primary cursor-pointer">SIGN UP</span>
+          </router-link>
         </span>
       </div>
     </div>

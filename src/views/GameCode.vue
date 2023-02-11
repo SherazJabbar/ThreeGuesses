@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-8">
-    <div class="mt-16 text-center">
-      <div class="flex flex-col items-center mb-14">
+    <div class="mt-4 md:mt-16 text-center">
+      <div class="flex flex-col items-center mb-5 md:mb-14">
         <img src="../assets/handvictor-8.png" class="w-max" />
         <img src="../assets/Title.png" class="w-max mt-4" />
       </div>

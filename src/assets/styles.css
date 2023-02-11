@@ -2,6 +2,25 @@ body {
   background-color: #1e1e1e;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #797979;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #646464;
+}
 .main-heading {
   font-size: 76px !important;
 }
@@ -18,6 +37,10 @@ body {
   font-size: 16px;
 }
 
+.normal-text {
+  font-size: 12px;
+}
+
 .bg-btn-primary {
   background-color: #870082;
 }
@@ -30,11 +53,11 @@ body {
   background-color: #3e003b;
 }
 
-.text-error{
+.text-error {
   color: #ed3737;
 }
 
-.border-error{
+.border-error {
   border: 4px solid #ed3737 !important;
 }
 
@@ -80,6 +103,10 @@ body {
   color: #ed3737;
 }
 
+.border-red {
+  border-color: #ed3737;
+}
+
 .color-yellow {
   color: #f5ea5a;
 }
@@ -100,22 +127,117 @@ body {
   color: #7df9ff;
 }
 
-.players-div{
+.border-3 {
+  border: 3px solid;
+}
+
+.border-pink {
+  border-color: #ff69b4;
+}
+
+.players-div {
   max-width: 480px;
 }
 
-.player-img{
+.player-img {
   width: 120px;
   height: 120px;
   border: 2px solid #f2f2f2;
 }
+
+.video-div {
+  width: 500px;
+  height: 300px;
+}
+
+.video-div video {
+  width: 250px;
+}
+
+.h-excluded-words {
+  height: max-content;
+  max-height: 288px;
+  overflow-y: scroll;
+}
+
+.game-img {
+  width: 240px;
+  height: 240px;
+  border: 2px solid #f2f2f2;
+}
+
+.next-option-img {
+  width: 100px;
+  height: 100px;
+}
+
+.modal-img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1280px) {
+  .movie-title-text {
+    margin-right: 7rem;
+  }
+
+  .title-name-text {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .h-excluded-words {
+    width: calc(100vw - 4rem) !important;
+  }
+
+  .h-excluded-words::-webkit-scrollbar {
+    height: 4px !important;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .input-field {
     width: -webkit-fill-available !important;
+    font-size: 13px !important;
   }
 
   .main-btn {
     width: -webkit-fill-available !important;
+    font-size: 16px !important;
+  }
+
+  .video-div {
+    width: -webkit-fill-available !important;
+    height: 190px;
+  }
+
+  .game-img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .game-img.clicked-img {
+    width: 126px !important;
+    height: 126px !important;
+    border: 2px solid #ff69b4 !important;
+  }
+
+  .next-option-img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .modal-img {
+    max-width: 420px !important ;
   }
 }
 
@@ -130,21 +252,26 @@ body {
   .sub-heading-3 {
     font-size: 14px;
   }
-
-  .small-text{
+  .medium-text-2 {
+    font-size: 18px !important;
+  }
+  .medium-text {
+    font-size: 16px !important;
+  }
+  .small-text {
     font-size: 11px !important;
   }
 
-  .players-div{
+  .players-div {
     max-width: 280px !important;
   }
 
-  .player-img{
+  .player-img {
     width: 70px !important;
     height: 70px !important;
   }
 
-  .players-text{
+  .players-text {
     font-size: 10px !important;
   }
 }
