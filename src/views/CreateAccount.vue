@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto px-8">
-    <div class="mt-4 md:mt-16 text-center">
-      <div class="flex flex-col items-center mb-5 md:mb-14">
+    <div class="mt-4 md:mt-8 text-center">
+      <div class="flex flex-col items-center mb-5 md:mb-8">
         <img src="../assets/handvictor-8.png" class="w-max" />
-        <img src="../assets/Title.png" class="w-max mt-4" />
+        <img src="../assets/Title.png" class="w-1/2 md:w-1/4 mt-4" />
       </div>
 
       <div>
@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <div class="my-4 md:my-10">
+      <div class="my-4">
         <span
           class="sub-heading-2 flex flex-col md:block text-color tracking-wide py-5 cursor-pointer hover:font-bold active:font-normal"
         >

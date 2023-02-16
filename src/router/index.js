@@ -7,7 +7,8 @@ import EnterCode from "../views/EnterCode";
 import Lobby from "../views/LobbyScreen";
 import Prompt from "../views/PromptScreen";
 import GuessTitle from "../views/GuessTitle";
-
+import Result from "../views/Result";
+// import test from "../views/test";
 const routes = [
   {
     path: '/',
@@ -48,7 +49,17 @@ const routes = [
     path: '/guesstitle',
     name: 'GuessTitle',
     component: GuessTitle
-  }
+  },
+  {
+    path: '/result',
+    name: 'Result',
+    component: Result
+  },
+  // {
+  //   path: '/test',
+  //   name: 'test',
+  //   component: test
+  // },
   
 ]
 

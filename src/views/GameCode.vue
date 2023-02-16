@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto px-8">
-    <div class="mt-4 md:mt-16 text-center">
-      <div class="flex flex-col items-center mb-5 md:mb-14">
+    <div class="mt-4 md:mt-8 text-center">
+      <div class="flex flex-col items-center mb-5 md:mb-8">
         <img src="../assets/handvictor-8.png" class="w-max" />
-        <img src="../assets/Title.png" class="w-max mt-4" />
+        <img src="../assets/Title.png" class="w-1/2 md:w-1/4 mt-4" />
       </div>
 
       <div class="my-2">
@@ -52,12 +52,14 @@
         </div>
       </div>
       <div class="m-5">
+        <router-link  :to="{ name: 'EnterCode' }" >
         <button
           type="button"
           class="text-white bg-btn-primary border-4 p-3 border-white main-btn font-normal w-full md:w-auto"
         >
           START!
         </button>
+      </router-link>
       </div>
     </div>
   </div>
