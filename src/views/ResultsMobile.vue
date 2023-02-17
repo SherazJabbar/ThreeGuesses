@@ -27,7 +27,7 @@
                   <td class="px-4 column-width overflow-wrap-anywhere">
                     <div class="justify-self-center flex flex-col items-center">
                       <div class="result-player-img m-4">
-                        <img src="../assets/img-3.png" class="h-full" />
+                        <img src="../assets/img-1.png" class="h-full" />
                       </div>
                       <div class="text-center">
                         <h1 class="normal-text small-text color-blueseil">
@@ -46,7 +46,7 @@
                   <td class="px-4 column-width overflow-wrap-anywhere">
                     <div class="justify-self-center flex flex-col items-center">
                       <div class="result-player-img m-4">
-                        <img src="../assets/img-3.png" class="h-full" />
+                        <img src="../assets/img-1.png" class="h-full" />
                       </div>
                       <div class="text-center">
                         <h1 class="normal-text small-text color-blueseil">
@@ -65,7 +65,7 @@
                   <td class="px-4 column-width overflow-wrap-anywhere">
                     <div class="justify-self-center flex flex-col items-center">
                       <div class="result-player-img m-4">
-                        <img src="../assets/img-3.png" class="h-full" />
+                        <img src="../assets/img-2.png" class="h-full" />
                       </div>
                       <div class="text-center">
                         <h1 class="normal-text small-text text-color">
@@ -115,7 +115,7 @@
                         <div class="flex">
                           <img src="../assets/left-arrow.svg" class="header-arrow" />
                           <div class="result-player-img m-4">
-                            <img src="../assets/img-3.png" class="h-full" />
+                            <img src="../assets/img-4\.png" class="h-full" />
                           </div>
                           <img
                             src="../assets/left-arrow.svg"
