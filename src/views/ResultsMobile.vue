@@ -115,7 +115,7 @@
                         <div class="flex">
                           <img src="../assets/left-arrow.svg" class="header-arrow" />
                           <div class="result-player-img m-4">
-                            <img src="../assets/img-4\.png" class="h-full" />
+                            <img src="../assets/img-4.png" class="h-full" />
                           </div>
                           <img
                             src="../assets/left-arrow.svg"
