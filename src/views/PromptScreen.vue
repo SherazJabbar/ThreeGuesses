@@ -130,10 +130,10 @@
           >
             <img
               :src="require(`../assets/${img.link}`)"
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover cursor-pointer"
             />
           </div>
-          <div :id="`button-${img.id}`" class="block md:hidden my-2 invisible">
+          <div :id="`button-${img.id}`" class="block my-2 invisible">
             <button
               type="button"
               class="color-pink border-pink border-3 p-1 normal-text w-full"

@@ -245,6 +245,12 @@ body {
     display: none;
   }
 
+  .game-img.clicked-img {
+    width: 320px !important;
+    height: 320px !important;
+    border: 2px solid #ff69b4 !important;
+  }
+
   .header-arrow{
     display: none;
   }
